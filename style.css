@@ -33,6 +33,10 @@ body{
     border: 2px solid #FFF;
     text-align: center;
     padding: 5px 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     border-radius: 15px;
 }
 .landing-page .links li a{
@@ -75,9 +79,6 @@ body{
     align-items: center;
 }
 .landing-page .text{
-    background-image: url("imgs/Design1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
 }
 .landing-page .text h1{
@@ -139,6 +140,10 @@ body{
 .landing-page .btns .btnOne a{
     background-color: #484a4b;
     color: #FFF;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
     border-radius: 16px;
     padding: 5px 12px;
 }
@@ -183,9 +188,6 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
-    background-image: url("imgs/Design3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .products-box h1{
     color: #484a4b;
@@ -253,7 +255,10 @@ body{
     margin: 10px;
     font-size: 13px;
     padding: 5px 10px;
-    
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 /* End Products */
 /* Start About */
@@ -335,6 +340,11 @@ body{
     font-size: 150px;
     color: #484a4b;
 }
+@media (max-width:768px) {
+    .offers-box .special h2{
+        font-size: 95px;
+    }
+}
 .offers-box .special p{
     color: #484a4b;
     font-weight: bold;
@@ -361,9 +371,6 @@ body{
 /* End Offers */
 /* Start Best Flowers */
 .bestFlowers-section{
-    background-image: url("imgs/Design5.png");
-    background-repeat: no-repeat;
-    background-size: contain;
     padding: 70px;
 }
 .bestFlowers{
@@ -441,13 +448,14 @@ body{
     padding: 5px 10px;
     text-decoration: none;
     text-align: center;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 /* End Best Flowers */
 /* Start Features */
 .features-section{
-    background-image: url("imgs/Design5.png");
-    background-repeat: no-repeat;
-    background-size: contain;
     padding: 70px;
 }
 .features{
@@ -517,6 +525,10 @@ body{
     padding: 5px 10px;
     text-decoration: none;
     text-align: center;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 @media (max-width:991px) {
     .features-section .features .info{
